@@ -11,7 +11,7 @@ var GoodsSchema=new mongoose.Schema({
   counts:Number,//数量
 })
 
-//用户的方法
+//物品的方法
 GoodsSchema.statics={
   //根据class查找
 

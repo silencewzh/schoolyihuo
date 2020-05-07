@@ -7,7 +7,7 @@ var ArticleSchema=new mongoose.Schema({
   content:String,
 })
 
-//用户的方法
+//文章的方法
 ArticleSchema.statics={
   //根据class查找
 
